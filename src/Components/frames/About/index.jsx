@@ -10,7 +10,7 @@ const About = () => {
                 </h1>
             </div>
 
-            <div className="main-block">
+            <div className="main">
                 <div className="text">
                     <p>
                         ТОО "VIXET" профессиональный поставщик технических решений для физических лиц и компаний.<br/>

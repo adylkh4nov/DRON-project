@@ -8,21 +8,22 @@ const App = () => {
 
     useEffect( () => {
         window.scrollTo({
-            top: document.getElementsByClassName("main"),
+            top: document.getElementsByClassName("about"),
         })
     },[currentScroll]);
+
 
     return (
         <div>
             <Header {...setCurrentScroll}/>
-            <div className="header">
+            <div className="header-block">
                 .
             </div>
 
-            <div className="main">
+            <div className="main-block">
                 <MainFrame/>
             </div>
-            <div className="about">
+            <div className="about-block">
                 <About/>
             </div>
 

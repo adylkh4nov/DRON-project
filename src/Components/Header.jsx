@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/header.scss'
+
 const Header = (props) => {
 
     const setScroll = (scroll) => {
@@ -14,7 +15,8 @@ const Header = (props) => {
                         <ul className="navbar-menu">
                             <li><a onClick={() => setScroll("main")}
                                 href="#">Главное</a></li>
-                            <li><a href="#">О нас</a></li>
+                            <li><a onClick={() => setScroll("about")}
+                                href="#">О нас</a></li>
                             <li><a href="#">Цены</a></li>
                             <li><a href="#">Контакты</a></li>
                         </ul>
