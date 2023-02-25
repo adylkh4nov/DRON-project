@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(to right,#020024,#2b2b2f,#145f6e);
+    text-align: center;
+
+}
+.header{
+    margin-bottom: 80px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #333333
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    -webkit-box-shadow: inset 0 0 6px rgb(178, 150, 150);
+    background-image: linear-gradient(to bottom, #000000, #f9b4b4, #c1e7b1, #000000);
+}
+
+html{
+    scroll-behavior: smooth;
+}
