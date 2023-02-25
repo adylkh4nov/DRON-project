@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header";
 import './App.scss'
 import MainFrame from "./Components/frames/MainFrame";
 import About from "./Components/frames/About";

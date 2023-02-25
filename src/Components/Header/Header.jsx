@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/header.scss'
+import './header.scss'
 
 const Header = (props) => {
 
@@ -10,18 +10,18 @@ const Header = (props) => {
         <div>
             <nav className="navbar">
                 <div className="container">
-                    <a href="#" className="navbar-logo">DRONS</a>
+                    <a href="src/Components/Header/Header#" className="navbar-logo">DRONS</a>
                     <div className="navbar-wrap">
                         <ul className="navbar-menu">
                             <li><a onClick={() => setScroll("main")}
-                                href="#">Главное</a></li>
+                                href="src/Components/Header/Header#">Главное</a></li>
                             <li><a onClick={() => setScroll("about")}
-                                href="#">О нас</a></li>
-                            <li><a href="#">Цены</a></li>
-                            <li><a href="#">Контакты</a></li>
+                                href="src/Components/Header/Header#">О нас</a></li>
+                            <li><a href="src/Components/Header/Header#">Цены</a></li>
+                            <li><a href="src/Components/Header/Header#">Контакты</a></li>
                         </ul>
 
-                        <a href="#" className="callback">Обратный звонок</a>
+                        <a href="src/Components/Header/Header#" className="callback">Обратный звонок</a>
                     </div>
 
                 </div>
