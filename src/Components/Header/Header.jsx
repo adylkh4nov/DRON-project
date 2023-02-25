@@ -14,11 +14,11 @@ const Header = (props) => {
                     <div className="navbar-wrap">
                         <ul className="navbar-menu">
                             <li><a onClick={() => setScroll("main")}
-                                href="src/Components/Header/Header#">Главное</a></li>
+                                href="#">Главное</a></li>
                             <li><a onClick={() => setScroll("about")}
-                                href="src/Components/Header/Header#">О нас</a></li>
-                            <li><a href="src/Components/Header/Header#">Цены</a></li>
-                            <li><a href="src/Components/Header/Header#">Контакты</a></li>
+                                href="#">О нас</a></li>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Контакты</a></li>
                         </ul>
 
                         <a href="src/Components/Header/Header#" className="callback">Обратный звонок</a>
