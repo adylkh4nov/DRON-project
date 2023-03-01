@@ -6,24 +6,30 @@ import About from "./Components/frames/About";
 const App = () => {
     const [currentScroll, setCurrentScroll] = useState("");
 
-    useEffect( () => {
-        window.scrollTo({
-            top: document.getElementsByClassName("about"),
-        })
-    },[currentScroll]);
+    const Func = (id) => {
+        if(currentScroll!==id) {
+            const element = document.getElementById(id);
+
+            window.scrollTo({
+                    top: element.offsetTop,
+                    behavior: "smooth"
+                }
+            )
+        }
+    }
 
 
     return (
         <div>
-            <Header {...setCurrentScroll}/>
-            <div className="header-block">
+            <Header Func={Func}/>
+            <div className="header-block" id="header-block" >
                 .
             </div>
 
-            <div className="main-block">
+            <div className="main-block" id="main-block" >
                 <MainFrame/>
             </div>
-            <div className="about-block">
+            <div className="about-block" id="about-block" >
                 <About/>
             </div>
 
